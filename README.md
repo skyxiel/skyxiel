@@ -30,4 +30,4 @@ coursework and side projects documented and public.
 ### Contact
 
 - Email: charlieclements2906@gmail.com
-- LinkedIn: <!-- paste your LinkedIn URL here -->
+- LinkedIn: [charlie-c](https://www.linkedin.com/in/charlie-c-84568939a/)
