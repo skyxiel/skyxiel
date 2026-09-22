@@ -1,6 +1,6 @@
 # Hi, I'm Charlie 👋
 
-Aeronautical Engineering student at Milton Keynes College (Level 3 Extended
+Aeronautical Engineering student at College (Level 3 Extended
 Diploma, final year), also studying **Maths and Physics A-level**. Aiming for an
 engineering **degree apprenticeship** in aerospace, mechanical or embedded
 software.
