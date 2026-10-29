@@ -1,33 +1,52 @@
-# Hi, I'm Charlie 👋
+# Hi, I'm Charlie
 
-Aeronautical Engineering student at College (Level 3 Extended
-Diploma, final year), also studying **Maths and Physics A-level**. Aiming for an
-engineering **degree apprenticeship** in aerospace, mechanical or embedded
-software.
+Aeronautical Engineering student (Level 3 Extended Diploma, final year) studying Maths and Physics A-level alongside. Aiming for an engineering degree apprenticeship in aerospace, mechanical or embedded software.
 
-I learn by building things — usually physics turned into a tool you can run.
-Recent placement with **Williams** in motorsport; the projects below I built in
-my own time to teach myself simulation and engineering computing.
+I like turning physics into something you can run. Most of the projects here started as "I wonder if I can simulate that" and ended up as proper tools with real outputs. Recent placement with **Williams** in motorsport.
 
-### Projects
+## Projects
+
+### Aerospace & Flight
 
 | Project | What it does | Tech |
 |---|---|---|
-| **[Aircraft Performance Engine](https://github.com/skyxiel/Aircraft-Performance-Calculator)** | Point-mass aircraft performance model — standard atmosphere, drag polar, rate of climb, ceilings, take-off & landing distance, Breguet range & endurance, V–n flight envelope, engine-out glide. Text reports, Matplotlib charts and an interactive slider simulator; five aircraft classes. | Python · NumPy · Matplotlib |
-| **[Beam Design Optimiser](https://github.com/skyxiel/f)** | Structural optimisation — searches thousands of beam sections to find the lightest that meets deflection, yield safety-factor and mass limits under four load cases, then auto-generates a full engineering report. | Python · NumPy · Matplotlib |
+| [Aircraft Performance Calculator](https://github.com/skyxiel/Aircraft-Performance-Calculator) | Point-mass aircraft model — standard atmosphere, drag polar, climb, ceilings, take-off/landing, V–n envelope, engine-out glide | Python · NumPy · Matplotlib |
+| [NACA Airfoil Analyser](https://github.com/skyxiel/naca-airfoil-analyser) | Generates NACA 4-digit airfoils and solves for lift and pressure distribution using a vortex panel method | Python · NumPy · Matplotlib |
+| [Rocket Trajectory Simulator](https://github.com/skyxiel/rocket-trajectory-sim) | Multi-stage rocket flight sim — ISA atmosphere, altitude-dependent thrust, drag, staging events, max-Q detection | Python · NumPy · Matplotlib |
+| [Orbital Mechanics Toolkit](https://github.com/skyxiel/orbital-mechanics-toolkit) | Hohmann transfers, ground tracks, delta-v budgets, Tsiolkovsky equation, orbit visualisation | Python · NumPy · Matplotlib |
 
-### What I'm learning from them
+### Motorsport
 
-Applied mechanics (bending, drag, standard atmosphere) · numerical methods
-(root-finding, 1-D optimisation, numerical integration, grid search) · clean
-modular Python and a CLI · documenting work so it can be checked · Git
+| Project | What it does | Tech |
+|---|---|---|
+| [F1 Lap Simulator](https://github.com/skyxiel/f1-lap-simulator) | Lap time model with tyre degradation, fuel burn-off, DRS and pit-stop strategy — built around Silverstone | Python · NumPy · Matplotlib |
 
-### Currently
+### Dynamics & Structures
 
-Extending the performance engine feature-by-feature, and getting more of my
-coursework and side projects documented and public.
+| Project | What it does | Tech |
+|---|---|---|
+| [Beam Design Optimiser](https://github.com/skyxiel/Design-Optimisation) | Searches thousands of beam sections for the lightest that meets deflection, yield and mass limits, then auto-generates an engineering report | Python · NumPy · Matplotlib |
+| [Double Pendulum Chaos Explorer](https://github.com/skyxiel/double-pendulum-chaos) | Lagrangian mechanics, RK4 integration, chaos visualisation, Lyapunov exponent estimation — from regular to chaotic regimes | Python · NumPy · Matplotlib |
 
-### Contact
+### Embedded & Control Systems
 
-- Email: charlieclements2906@gmail.com
-- LinkedIn: [charlie-c](https://www.linkedin.com/in/charlie-c-84568939a/)
+| Project | What it does | Tech |
+|---|---|---|
+| [Motor Speed Controller](https://github.com/skyxiel/arduino-motor-speed-controller) | Closed-loop DC motor speed control using back-EMF sensing, PID and system identification | Python · Arduino · C++ |
+| [Temperature Controller](https://github.com/skyxiel/arduino-temperature-controller) | Thermostat comparing ON/OFF, P and PI control of a fan and heater with Python data logging | Python · Arduino · C++ |
+| [Security System](https://github.com/skyxiel/arduino-security-system) | Keypad access control — state machine, escalating lockouts, latched alarm, EEPROM storage | Arduino · C++ |
+| [Traffic Controller](https://github.com/skyxiel/arduino-traffic-controller) | Demand-driven UK traffic lights — FSM, conflict monitor, red-lamp proving | Arduino · C++ |
+| [Measurement Station](https://github.com/skyxiel/arduino-measurement-station) | Multi-channel measurement (voltage, resistance, light, temperature) with calibration and Python logging | Python · Arduino · C++ |
+
+## What runs through all of this
+
+Applied mechanics · numerical methods (RK4, root-finding, optimisation, panel methods) · clean modular Python · embedded C++ and real hardware · documenting work so it can be checked · Git
+
+## Currently
+
+Building more simulation tools and getting coursework projects documented and public. Looking for degree apprenticeship opportunities in aerospace, mechanical or embedded software engineering.
+
+## Contact
+
+- **Email:** charlieclements2906@gmail.com
+- **LinkedIn:** [charlie-c](https://linkedin.com/in/charlie-c)
